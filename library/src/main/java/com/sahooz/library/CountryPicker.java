@@ -11,8 +11,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -45,7 +43,12 @@ public class CountryPicker extends DialogFragment {
         allCountries.addAll(Country.getAll(getContext(), null));
         selectedCountries.clear();
         selectedCountries.addAll(allCountries);
-        final Adapter adapter = new Adapter();
+        final Adapter adapter = new Adapter(getContext());
+        adapter.setOnPick(country -> {
+            dismiss();
+            if(onPick != null) onPick.onPick(country);
+        });
+        adapter.setSelectedCountries(selectedCountries);
         rvCountry.setAdapter(adapter);
         rvCountry.setLayoutManager(new LinearLayoutManager(getContext()));
         etSearch.addTextChangedListener(new TextWatcher() {
@@ -57,53 +60,12 @@ public class CountryPicker extends DialogFragment {
                 String string = s.toString();
                 selectedCountries.clear();
                 for (Country country : allCountries) {
-                    if(country.name.contains(string))
+                    if(country.name.toLowerCase().contains(string.toLowerCase()))
                         selectedCountries.add(country);
                 }
                 adapter.notifyDataSetChanged();
             }
         });
         return root;
-    }
-
-    private class Adapter extends RecyclerView.Adapter<VH> {
-        @Override
-        public VH onCreateViewHolder(ViewGroup parent, int viewType) {
-            return new VH(LayoutInflater.from(getContext()).inflate(R.layout.item_country, parent, false));
-        }
-
-        @Override
-        public void onBindViewHolder(VH holder, int position) {
-            final Country country = selectedCountries.get(position);
-            holder.ivFlag.setImageDrawable(country.flag ==0? null : getResources().getDrawable(country.flag));
-            holder.tvName.setText(country.name);
-            holder.tvCode.setText("+" + country.code);
-            holder.itemView.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    dismiss();
-                    if(onPick != null) onPick.onPick(country);
-                }
-            });
-        }
-
-        @Override
-        public int getItemCount() {
-            return selectedCountries.size();
-        }
-    }
-
-    private class VH extends RecyclerView.ViewHolder {
-
-        TextView tvName;
-        TextView tvCode;
-        ImageView ivFlag;
-
-        VH(View itemView) {
-            super(itemView);
-            ivFlag = (ImageView) itemView.findViewById(com.sahooz.library.R.id.iv_flag);
-            tvName = (TextView) itemView.findViewById(R.id.tv_name);
-            tvCode = (TextView) itemView.findViewById(R.id.tv_code);
-        }
     }
 }

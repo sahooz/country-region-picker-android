@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.sahooz.library.PickActivity" android:windowSoftInputMode="adjustPan"/>
     </application>
 
 </manifest>

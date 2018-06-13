@@ -7,10 +7,18 @@
     tools:context="com.sahooz.countrypicker.MainActivity">
 
     <Button
+        android:id="@+id/btnDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="选择"/>
+        android:text="对话框"/>
+
+    <Button
+        android:id="@+id/btnActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="click"
+        android:text="Activity"/>
 
     <include layout="@layout/item_country"/>
 

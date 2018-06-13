@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:hint="@string/search"
+        android:imeOptions="actionSearch"
+        android:textColor="@android:color/black"
+        android:textColorHint="#666666"
+        android:maxLines="1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_pick"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.sahooz.library.SideBar
+            android:id="@+id/side"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            app:letterColor="#888"
+            app:letterSize="12sp"
+            app:selectColor="#3C3" />
+
+        <TextView
+            android:id="@+id/tv_letter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#80000000"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffffff"
+            android:textSize="24sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>
