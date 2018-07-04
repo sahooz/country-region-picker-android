@@ -75,7 +75,11 @@ public class PickActivity extends AppCompatActivity {
             }
         });
     }
-
+ @Override
+    public void onBackPressed() {
+        setResult(Activity.RESULT_CANCELED, new Intent());
+        super.onBackPressed();
+    }
     class CAdapter extends PyAdapter<RecyclerView.ViewHolder> {
 
         public CAdapter(List<? extends PyEntity> entities) {
