@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/country-picker-android.iml" filepath="$PROJECT_DIR$/country-picker-android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/country-picker-android-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/country-picker-android-app.iml" group="country-picker-android/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/countrypicker.iml" filepath="$PROJECT_DIR$/.idea/modules/library/countrypicker.iml" group="country-picker-android/countrypicker" />
+      <module fileurl="file://$PROJECT_DIR$/countrypicker/library.iml" filepath="$PROJECT_DIR$/countrypicker/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine-country-picker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/mine-country-picker-android.iml" group="country-picker-android" />
     </modules>
   </component>
 </project>

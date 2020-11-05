@@ -1181,7 +1181,7 @@ public class MainActivity extends AppCompatActivity {
     public void click(View view) {
         CountryPicker.newInstance(null, new OnPick() {
             @Override
-            public void onPick(Country country) {
+            public void callback(Country country) {
                 if(country.flag != 0) ivFlag.setImageResource(country.flag);
                 tvName.setText(country.name);
                 tvCode.setText("+" + country.code);

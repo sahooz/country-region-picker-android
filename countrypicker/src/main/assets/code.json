@@ -1,0 +1,1538 @@
+[
+  {
+    "sc": "中国",
+    "code": 86,
+    "pinyin": "ZHONGGUO",
+    "en": "China",
+    "locale": "CN",
+    "tc": "中國"
+  },
+  {
+    "sc": "安哥拉",
+    "code": 244,
+    "pinyin": "ANGELA",
+    "en": "Angola",
+    "locale": "AO",
+    "tc": "安哥拉"
+  },
+  {
+    "sc": "阿富汗",
+    "code": 93,
+    "pinyin": "AFUHAN",
+    "en": "Afghanistan",
+    "locale": "AF",
+    "tc": "阿富汗"
+  },
+  {
+    "sc": "阿尔巴尼亚",
+    "code": 355,
+    "pinyin": "AERBANIYA",
+    "en": "Albania",
+    "locale": "AL",
+    "tc": "阿爾巴尼亞"
+  },
+  {
+    "sc": "阿尔及利亚",
+    "code": 213,
+    "pinyin": "AERJILIYA",
+    "en": "Algeria",
+    "locale": "DZ",
+    "tc": "阿爾及利亞"
+  },
+  {
+    "sc": "安道尔共和国",
+    "code": 376,
+    "pinyin": "ANDAOERGONGHEGUO",
+    "en": "Andorra",
+    "locale": "AD",
+    "tc": "安道爾共和國"
+  },
+  {
+    "sc": "安圭拉岛",
+    "code": 1264,
+    "pinyin": "ANGUILADAO",
+    "en": "Anguilla",
+    "locale": "AI",
+    "tc": "安圭拉島"
+  },
+  {
+    "sc": "安提瓜和巴布达",
+    "code": 1268,
+    "pinyin": "ANTIGUAHEBABUDA",
+    "en": "Antigua and Barbuda",
+    "locale": "AG",
+    "tc": "安提瓜和巴布達"
+  },
+  {
+    "sc": "阿根廷",
+    "code": 54,
+    "pinyin": "AGENTING",
+    "en": "Argentina",
+    "locale": "AR",
+    "tc": "阿根廷"
+  },
+  {
+    "sc": "亚美尼亚",
+    "code": 374,
+    "pinyin": "YAMEINIYA",
+    "en": "Armenia",
+    "locale": "AM",
+    "tc": "亞美尼亞"
+  },
+  {
+    "sc": "阿森松",
+    "code": 247,
+    "pinyin": "ASENSONG",
+    "en": "Ascension",
+    "locale": "AC",
+    "tc": "阿森松"
+  },
+  {
+    "sc": "澳大利亚",
+    "code": 61,
+    "pinyin": "AODALIYA",
+    "en": "Australia",
+    "locale": "AU",
+    "tc": "澳大利亞"
+  },
+  {
+    "sc": "奥地利",
+    "code": 43,
+    "pinyin": "AODILI",
+    "en": "Austria",
+    "locale": "AT",
+    "tc": "奧地利"
+  },
+  {
+    "sc": "阿塞拜疆",
+    "code": 994,
+    "pinyin": "ASAIBAIJIANG",
+    "en": "Azerbaijan",
+    "locale": "AZ",
+    "tc": "阿塞拜疆"
+  },
+  {
+    "sc": "巴哈马",
+    "code": 1242,
+    "pinyin": "BAHAMA",
+    "en": "Bahamas",
+    "locale": "BS",
+    "tc": "巴哈馬"
+  },
+  {
+    "sc": "巴林",
+    "code": 973,
+    "pinyin": "BALIN",
+    "en": "Bahrain",
+    "locale": "BH",
+    "tc": "巴林"
+  },
+  {
+    "sc": "孟加拉国",
+    "code": 880,
+    "pinyin": "MENGJIALAGUO",
+    "en": "Bangladesh",
+    "locale": "BD",
+    "tc": "孟加拉國"
+  },
+  {
+    "sc": "巴巴多斯",
+    "code": 1246,
+    "pinyin": "BABADUOSI",
+    "en": "Barbados",
+    "locale": "BB",
+    "tc": "巴巴多斯"
+  },
+  {
+    "sc": "白俄罗斯",
+    "code": 375,
+    "pinyin": "BAIELUOSI",
+    "en": "Belarus",
+    "locale": "BY",
+    "tc": "白俄羅斯"
+  },
+  {
+    "sc": "比利时",
+    "code": 32,
+    "pinyin": "BILISHI",
+    "en": "Belgium",
+    "locale": "BE",
+    "tc": "比利時"
+  },
+  {
+    "sc": "伯利兹",
+    "code": 501,
+    "pinyin": "BOLIZI",
+    "en": "Belize",
+    "locale": "BZ",
+    "tc": "伯利茲"
+  },
+  {
+    "sc": "贝宁",
+    "code": 229,
+    "pinyin": "BEINING",
+    "en": "Benin",
+    "locale": "BJ",
+    "tc": "貝寧"
+  },
+  {
+    "sc": "百慕大群岛",
+    "code": 1441,
+    "pinyin": "BAIMUDAQUNDAO",
+    "en": "Bermuda Is.",
+    "locale": "BM",
+    "tc": "百慕達群島"
+  },
+  {
+    "sc": "玻利维亚",
+    "code": 591,
+    "pinyin": "BOLIWEIYA",
+    "en": "Bolivia",
+    "locale": "BO",
+    "tc": "玻利維亞"
+  },
+  {
+    "sc": "博茨瓦纳",
+    "code": 267,
+    "pinyin": "BOCIWANA",
+    "en": "Botswana",
+    "locale": "BW",
+    "tc": "博茨瓦納"
+  },
+  {
+    "sc": "巴西",
+    "code": 55,
+    "pinyin": "BAXI",
+    "en": "Brazil",
+    "locale": "BR",
+    "tc": "巴西"
+  },
+  {
+    "sc": "文莱",
+    "code": 673,
+    "pinyin": "WENLAI",
+    "en": "Brunei",
+    "locale": "BN",
+    "tc": "文萊"
+  },
+  {
+    "sc": "保加利亚",
+    "code": 359,
+    "pinyin": "BAOJIALIYA",
+    "en": "Bulgaria",
+    "locale": "BG",
+    "tc": "保加利亞"
+  },
+  {
+    "sc": "布基纳法索",
+    "code": 226,
+    "pinyin": "BUJINAFASUO",
+    "en": "Burkina-faso",
+    "locale": "BF",
+    "tc": "布基納法索"
+  },
+  {
+    "sc": "缅甸",
+    "code": 95,
+    "pinyin": "MIANDIAN",
+    "en": "Burma",
+    "locale": "MM",
+    "tc": "緬甸"
+  },
+  {
+    "sc": "布隆迪",
+    "code": 257,
+    "pinyin": "BULONGDI",
+    "en": "Burundi",
+    "locale": "BI",
+    "tc": "布隆迪"
+  },
+  {
+    "sc": "喀麦隆",
+    "code": 237,
+    "pinyin": "KAMAILONG",
+    "en": "Cameroon",
+    "locale": "CM",
+    "tc": "喀麥隆"
+  },
+  {
+    "sc": "加拿大",
+    "code": 1,
+    "pinyin": "JIANADA",
+    "en": "Canada",
+    "locale": "CA",
+    "tc": "加拿大"
+  },
+  {
+    "sc": "开曼群岛",
+    "code": 1345,
+    "pinyin": "KAIMANQUNDAO",
+    "en": "Cayman Is.",
+    "locale": "KY",
+    "tc": "開曼群島"
+  },
+  {
+    "sc": "中非共和国",
+    "code": 236,
+    "pinyin": "ZHONGFEIGONGHEGUO",
+    "en": "Central African Republic",
+    "locale": "CF",
+    "tc": "中非共和國"
+  },
+  {
+    "sc": "乍得",
+    "code": 235,
+    "pinyin": "ZHADE",
+    "en": "Chad",
+    "locale": "TD",
+    "tc": "乍得"
+  },
+  {
+    "sc": "智利",
+    "code": 56,
+    "pinyin": "ZHILI",
+    "en": "Chile",
+    "locale": "CL",
+    "tc": "智利"
+  },
+  {
+    "sc": "哥伦比亚",
+    "code": 57,
+    "pinyin": "GELUNBIYA",
+    "en": "Colombia",
+    "locale": "CO",
+    "tc": "哥倫比亞"
+  },
+  {
+    "sc": "刚果",
+    "code": 242,
+    "pinyin": "GANGGUO",
+    "en": "Congo",
+    "locale": "CG",
+    "tc": "剛果"
+  },
+  {
+    "sc": "库克群岛",
+    "code": 682,
+    "pinyin": "KUKEQUNDAO",
+    "en": "Cook Is.",
+    "locale": "CK",
+    "tc": "庫克群島"
+  },
+  {
+    "sc": "哥斯达黎加",
+    "code": 506,
+    "pinyin": "GESIDALIJIA",
+    "en": "Costa Rica",
+    "locale": "CR",
+    "tc": "哥斯達黎加"
+  },
+  {
+    "sc": "古巴",
+    "code": 53,
+    "pinyin": "GUBA",
+    "en": "Cuba",
+    "locale": "CU",
+    "tc": "古巴"
+  },
+  {
+    "sc": "塞浦路斯",
+    "code": 357,
+    "pinyin": "SAIPULUSI",
+    "en": "Cyprus",
+    "locale": "CY",
+    "tc": "塞浦路斯"
+  },
+  {
+    "sc": "捷克",
+    "code": 420,
+    "pinyin": "JIEKE",
+    "en": "Czech Republic",
+    "locale": "CZ",
+    "tc": "捷克"
+  },
+  {
+    "sc": "丹麦",
+    "code": 45,
+    "pinyin": "DANMAI",
+    "en": "Denmark",
+    "locale": "DK",
+    "tc": "丹麥"
+  },
+  {
+    "sc": "吉布提",
+    "code": 253,
+    "pinyin": "JIBUTI",
+    "en": "Djibouti",
+    "locale": "DJ",
+    "tc": "吉布堤"
+  },
+  {
+    "sc": "多米尼加共和国",
+    "code": 1890,
+    "pinyin": "DUOMINIJIAGONGHEGUO",
+    "en": "Dominica Rep.",
+    "locale": "DO",
+    "tc": "多明尼加共和國共和國"
+  },
+  {
+    "sc": "厄瓜多尔",
+    "code": 593,
+    "pinyin": "EGUADUOER",
+    "en": "Ecuador",
+    "locale": "EC",
+    "tc": "厄瓜多爾"
+  },
+  {
+    "sc": "埃及",
+    "code": 20,
+    "pinyin": "AIJI",
+    "en": "Egypt",
+    "locale": "EG",
+    "tc": "埃及"
+  },
+  {
+    "sc": "萨尔瓦多",
+    "code": 503,
+    "pinyin": "SAERWADUO",
+    "en": "EI Salvador",
+    "locale": "SV",
+    "tc": "薩爾瓦多"
+  },
+  {
+    "sc": "爱沙尼亚",
+    "code": 372,
+    "pinyin": "AISHANIYA",
+    "en": "Estonia",
+    "locale": "EE",
+    "tc": "愛沙尼亞"
+  },
+  {
+    "sc": "埃塞俄比亚",
+    "code": 251,
+    "pinyin": "AISAIEBIYA",
+    "en": "Ethiopia",
+    "locale": "ET",
+    "tc": "埃塞俄比亞"
+  },
+  {
+    "sc": "斐济",
+    "code": 679,
+    "pinyin": "FEIJI",
+    "en": "Fiji",
+    "locale": "FJ",
+    "tc": "斐濟"
+  },
+  {
+    "sc": "芬兰",
+    "code": 358,
+    "pinyin": "FENLAN",
+    "en": "Finland",
+    "locale": "FI",
+    "tc": "芬蘭"
+  },
+  {
+    "sc": "法国",
+    "code": 33,
+    "pinyin": "FAGUO",
+    "en": "France",
+    "locale": "FR",
+    "tc": "法國"
+  },
+  {
+    "sc": "法属圭亚那",
+    "code": 594,
+    "pinyin": "FASHUGUIYANEI",
+    "en": "French Guiana",
+    "locale": "GF",
+    "tc": "法屬圭亞那"
+  },
+  {
+    "sc": "加蓬",
+    "code": 241,
+    "pinyin": "JIAPENG",
+    "en": "Gabon",
+    "locale": "GA",
+    "tc": "加蓬"
+  },
+  {
+    "sc": "冈比亚",
+    "code": 220,
+    "pinyin": "GANGBIYA",
+    "en": "Gambia",
+    "locale": "GM",
+    "tc": "岡比亞"
+  },
+  {
+    "sc": "格鲁吉亚",
+    "code": 995,
+    "pinyin": "GELUJIYA",
+    "en": "Georgia",
+    "locale": "GE",
+    "tc": "格魯吉亞"
+  },
+  {
+    "sc": "德国",
+    "code": 49,
+    "pinyin": "DEGUO",
+    "en": "Germany",
+    "locale": "DE",
+    "tc": "德國"
+  },
+  {
+    "sc": "加纳",
+    "code": 233,
+    "pinyin": "JIANA",
+    "en": "Ghana",
+    "locale": "GH",
+    "tc": "加納"
+  },
+  {
+    "sc": "直布罗陀",
+    "code": 350,
+    "pinyin": "ZHIBULUOTUO",
+    "en": "Gibraltar",
+    "locale": "GI",
+    "tc": "直布羅陀"
+  },
+  {
+    "sc": "希腊",
+    "code": 30,
+    "pinyin": "XILA",
+    "en": "Greece",
+    "locale": "GR",
+    "tc": "希臘"
+  },
+  {
+    "sc": "格林纳达",
+    "code": 1809,
+    "pinyin": "GELINNADA",
+    "en": "Grenada",
+    "locale": "GD",
+    "tc": "格林納達"
+  },
+  {
+    "sc": "关岛",
+    "code": 1671,
+    "pinyin": "GUANDAO",
+    "en": "Guam",
+    "locale": "GU",
+    "tc": "關島"
+  },
+  {
+    "sc": "危地马拉",
+    "code": 502,
+    "pinyin": "WEIDIMALA",
+    "en": "Guatemala",
+    "locale": "GT",
+    "tc": "危地馬拉"
+  },
+  {
+    "sc": "几内亚",
+    "code": 224,
+    "pinyin": "JINEIYA",
+    "en": "Guinea",
+    "locale": "GN",
+    "tc": "幾內亞"
+  },
+  {
+    "sc": "圭亚那",
+    "code": 592,
+    "pinyin": "GUIYANEI",
+    "en": "Guyana",
+    "locale": "GY",
+    "tc": "圭亞那"
+  },
+  {
+    "sc": "海地",
+    "code": 509,
+    "pinyin": "HAIDI",
+    "en": "Haiti",
+    "locale": "HT",
+    "tc": "海地"
+  },
+  {
+    "sc": "洪都拉斯",
+    "code": 504,
+    "pinyin": "HONGDOULASI",
+    "en": "Honduras",
+    "locale": "HN",
+    "tc": "洪都拉斯"
+  },
+  {
+    "sc": "中国香港",
+    "code": 852,
+    "pinyin": "ZHONGGUOXIANGGANG",
+    "en": "Hongkong",
+    "locale": "HK",
+    "tc": "中國香港"
+  },
+  {
+    "sc": "匈牙利",
+    "code": 36,
+    "pinyin": "XIONGYALI",
+    "en": "Hungary",
+    "locale": "HU",
+    "tc": "匈牙利"
+  },
+  {
+    "sc": "冰岛",
+    "code": 354,
+    "pinyin": "BINGDAO",
+    "en": "Iceland",
+    "locale": "IS",
+    "tc": "冰島"
+  },
+  {
+    "sc": "印度",
+    "code": 91,
+    "pinyin": "YINDU",
+    "en": "India",
+    "locale": "IN",
+    "tc": "印度"
+  },
+  {
+    "sc": "印度尼西亚",
+    "code": 62,
+    "pinyin": "YINDUNIXIYA",
+    "en": "Indonesia",
+    "locale": "ID",
+    "tc": "印度尼西亞"
+  },
+  {
+    "sc": "伊朗",
+    "code": 98,
+    "pinyin": "YILANG",
+    "en": "Iran",
+    "locale": "IR",
+    "tc": "伊朗"
+  },
+  {
+    "sc": "伊拉克",
+    "code": 964,
+    "pinyin": "YILAKE",
+    "en": "Iraq",
+    "locale": "IQ",
+    "tc": "伊拉克"
+  },
+  {
+    "sc": "爱尔兰",
+    "code": 353,
+    "pinyin": "AIERLAN",
+    "en": "Ireland",
+    "locale": "IE",
+    "tc": "愛爾蘭"
+  },
+  {
+    "sc": "以色列",
+    "code": 972,
+    "pinyin": "YISELIE",
+    "en": "Israel",
+    "locale": "IL",
+    "tc": "以色列"
+  },
+  {
+    "sc": "意大利",
+    "code": 39,
+    "pinyin": "YIDALI",
+    "en": "Italy",
+    "locale": "IT",
+    "tc": "意大利"
+  },
+  {
+    "sc": "科特迪瓦",
+    "code": 225,
+    "pinyin": "KETEDIWA",
+    "en": "Ivory Coast",
+    "locale": "CI",
+    "tc": "科特迪瓦"
+  },
+  {
+    "sc": "牙买加",
+    "code": 1876,
+    "pinyin": "YAMAIJIA",
+    "en": "Jamaica",
+    "locale": "JM",
+    "tc": "牙買加"
+  },
+  {
+    "sc": "日本",
+    "code": 81,
+    "pinyin": "RIBEN",
+    "en": "Japan",
+    "locale": "JP",
+    "tc": "日本"
+  },
+  {
+    "sc": "约旦",
+    "code": 962,
+    "pinyin": "YUEDAN",
+    "en": "Jordan",
+    "locale": "JO",
+    "tc": "約旦"
+  },
+  {
+    "sc": "柬埔寨",
+    "code": 855,
+    "pinyin": "JIANPUZHAI",
+    "en": "Kampuchea (Cambodia )",
+    "locale": "KH",
+    "tc": "柬埔寨"
+  },
+  {
+    "sc": "哈萨克斯坦",
+    "code": 327,
+    "pinyin": "HASAKESITAN",
+    "en": "Kazakstan",
+    "locale": "KZ",
+    "tc": "哈薩克"
+  },
+  {
+    "sc": "肯尼亚",
+    "code": 254,
+    "pinyin": "KENNIYA",
+    "en": "Kenya",
+    "locale": "KE",
+    "tc": "肯雅"
+  },
+  {
+    "sc": "韩国",
+    "code": 82,
+    "pinyin": "HANGUO",
+    "en": "Korea",
+    "locale": "KR",
+    "tc": "韓國"
+  },
+  {
+    "sc": "科威特",
+    "code": 965,
+    "pinyin": "KEWEITE",
+    "en": "Kuwait",
+    "locale": "KW",
+    "tc": "科威特"
+  },
+  {
+    "sc": "吉尔吉斯坦",
+    "code": 331,
+    "pinyin": "JIERJISITAN",
+    "en": "Kyrgyzstan",
+    "locale": "KG",
+    "tc": "吉爾吉斯坦"
+  },
+  {
+    "sc": "老挝",
+    "code": 856,
+    "pinyin": "LAOWO",
+    "en": "Laos",
+    "locale": "LA",
+    "tc": "寮國"
+  },
+  {
+    "sc": "拉脱维亚",
+    "code": 371,
+    "pinyin": "LATUOWEIYA",
+    "en": "Latvia",
+    "locale": "LV",
+    "tc": "拉脫維亞"
+  },
+  {
+    "sc": "黎巴嫩",
+    "code": 961,
+    "pinyin": "LIBANEN",
+    "en": "Lebanon",
+    "locale": "LB",
+    "tc": "黎巴嫩"
+  },
+  {
+    "sc": "莱索托",
+    "code": 266,
+    "pinyin": "LAISUOTUO",
+    "en": "Lesotho",
+    "locale": "LS",
+    "tc": "萊索托"
+  },
+  {
+    "sc": "利比里亚",
+    "code": 231,
+    "pinyin": "LIBILIYA",
+    "en": "Liberia",
+    "locale": "LR",
+    "tc": "利比里亞"
+  },
+  {
+    "sc": "利比亚",
+    "code": 218,
+    "pinyin": "LIBIYA",
+    "en": "Libya",
+    "locale": "LY",
+    "tc": "利比亞"
+  },
+  {
+    "sc": "列支敦士登",
+    "code": 423,
+    "pinyin": "LIEZHIDUNSHIDENG",
+    "en": "Liechtenstein",
+    "locale": "LI",
+    "tc": "列支敦士登"
+  },
+  {
+    "sc": "立陶宛",
+    "code": 370,
+    "pinyin": "LITAOWAN",
+    "en": "Lithuania",
+    "locale": "LT",
+    "tc": "立陶宛"
+  },
+  {
+    "sc": "卢森堡",
+    "code": 352,
+    "pinyin": "LUSENBAO",
+    "en": "Luxembourg",
+    "locale": "LU",
+    "tc": "盧森堡"
+  },
+  {
+    "sc": "中国澳门",
+    "code": 853,
+    "pinyin": "ZHONGGUOAOMEN",
+    "en": "Macao",
+    "locale": "MO",
+    "tc": "中國澳門"
+  },
+  {
+    "sc": "马达加斯加",
+    "code": 261,
+    "pinyin": "MADAJIASIJIA",
+    "en": "Madagascar",
+    "locale": "MG",
+    "tc": "馬達加斯加"
+  },
+  {
+    "sc": "马拉维",
+    "code": 265,
+    "pinyin": "MALAWEI",
+    "en": "Malawi",
+    "locale": "MW",
+    "tc": "馬拉維"
+  },
+  {
+    "sc": "马来西亚",
+    "code": 60,
+    "pinyin": "MALAIXIYA",
+    "en": "Malaysia",
+    "locale": "MY",
+    "tc": "馬來西亞"
+  },
+  {
+    "sc": "马尔代夫",
+    "code": 960,
+    "pinyin": "MAERDAIFU",
+    "en": "Maldives",
+    "locale": "MV",
+    "tc": "馬爾代夫"
+  },
+  {
+    "sc": "马里",
+    "code": 223,
+    "pinyin": "MALI",
+    "en": "Mali",
+    "locale": "ML",
+    "tc": "馬里"
+  },
+  {
+    "sc": "马耳他",
+    "code": 356,
+    "pinyin": "MAERTA",
+    "en": "Malta",
+    "locale": "MT",
+    "tc": "馬爾他"
+  },
+  {
+    "sc": "马里亚那群岛",
+    "code": 1670,
+    "pinyin": "MALIYANEIQUNDAO",
+    "en": "Mariana Is",
+    "locale": "MP",
+    "tc": "馬里亞那群島"
+  },
+  {
+    "sc": "马提尼克",
+    "code": 596,
+    "pinyin": "MATINIKE",
+    "en": "Martinique",
+    "locale": "MQ",
+    "tc": "馬提尼克島"
+  },
+  {
+    "sc": "毛里求斯",
+    "code": 230,
+    "pinyin": "MAOLIQIUSI",
+    "en": "Mauritius",
+    "locale": "MU",
+    "tc": "毛里裘斯"
+  },
+  {
+    "sc": "墨西哥",
+    "code": 52,
+    "pinyin": "MOXIGE",
+    "en": "Mexico",
+    "locale": "MX",
+    "tc": "墨西哥"
+  },
+  {
+    "sc": "摩尔多瓦",
+    "code": 373,
+    "pinyin": "MOERDUOWA",
+    "en": "Moldova, Republic of",
+    "locale": "MD",
+    "tc": "摩爾多瓦"
+  },
+  {
+    "sc": "摩纳哥",
+    "code": 377,
+    "pinyin": "MONAGE",
+    "en": "Monaco",
+    "locale": "MC",
+    "tc": "摩納哥"
+  },
+  {
+    "sc": "蒙古",
+    "code": 976,
+    "pinyin": "MENGGU",
+    "en": "Mongolia",
+    "locale": "MN",
+    "tc": "蒙古"
+  },
+  {
+    "sc": "蒙特塞拉特岛",
+    "code": 1664,
+    "pinyin": "MENGTESAILATEDAO",
+    "en": "Montserrat Is",
+    "locale": "MS",
+    "tc": "蒙特塞拉特島"
+  },
+  {
+    "sc": "摩洛哥",
+    "code": 212,
+    "pinyin": "MOLUOGE",
+    "en": "Morocco",
+    "locale": "MA",
+    "tc": "摩洛哥"
+  },
+  {
+    "sc": "莫桑比克",
+    "code": 258,
+    "pinyin": "MOSANGBIKE",
+    "en": "Mozambique",
+    "locale": "MZ",
+    "tc": "莫桑比克"
+  },
+  {
+    "sc": "纳米比亚",
+    "code": 264,
+    "pinyin": "NAMIBIYA",
+    "en": "Namibia",
+    "locale": "NA",
+    "tc": "納米比亞"
+  },
+  {
+    "sc": "瑙鲁",
+    "code": 674,
+    "pinyin": "NAOLU",
+    "en": "Nauru",
+    "locale": "NR",
+    "tc": "瑙魯"
+  },
+  {
+    "sc": "尼泊尔",
+    "code": 977,
+    "pinyin": "NIBOER",
+    "en": "Nepal",
+    "locale": "NP",
+    "tc": "尼泊爾"
+  },
+  {
+    "sc": "荷属安的列斯",
+    "code": 599,
+    "pinyin": "HESHUANDELIESI",
+    "en": "Netheriands Antilles",
+    "locale": "ANT",
+    "tc": "荷屬安地列斯"
+  },
+  {
+    "sc": "荷兰",
+    "code": 31,
+    "pinyin": "HELAN",
+    "en": "Netherlands",
+    "locale": "NL",
+    "tc": "荷蘭"
+  },
+  {
+    "sc": "新西兰",
+    "code": 64,
+    "pinyin": "XINXILAN",
+    "en": "New Zealand",
+    "locale": "NZ",
+    "tc": "新西蘭"
+  },
+  {
+    "sc": "尼加拉瓜",
+    "code": 505,
+    "pinyin": "NIJIALAGUA",
+    "en": "Nicaragua",
+    "locale": "NI",
+    "tc": "尼加拉瓜"
+  },
+  {
+    "sc": "尼日尔",
+    "code": 227,
+    "pinyin": "NIRIER",
+    "en": "Niger",
+    "locale": "NE",
+    "tc": "尼日爾"
+  },
+  {
+    "sc": "尼日利亚",
+    "code": 234,
+    "pinyin": "NIRILIYA",
+    "en": "Nigeria",
+    "locale": "NG",
+    "tc": "尼日利亞"
+  },
+  {
+    "sc": "朝鲜",
+    "code": 850,
+    "pinyin": "CHAOXIAN",
+    "en": "North Korea",
+    "locale": "KP",
+    "tc": "朝鮮"
+  },
+  {
+    "sc": "挪威",
+    "code": 47,
+    "pinyin": "NUOWEI",
+    "en": "Norway",
+    "locale": "NO",
+    "tc": "挪威"
+  },
+  {
+    "sc": "阿曼",
+    "code": 968,
+    "pinyin": "AMAN",
+    "en": "Oman",
+    "locale": "OM",
+    "tc": "阿曼"
+  },
+  {
+    "sc": "巴基斯坦",
+    "code": 92,
+    "pinyin": "BAJISITAN",
+    "en": "Pakistan",
+    "locale": "PK",
+    "tc": "巴基斯坦"
+  },
+  {
+    "sc": "巴拿马",
+    "code": 507,
+    "pinyin": "BANAMA",
+    "en": "Panama",
+    "locale": "PA",
+    "tc": "巴拿馬"
+  },
+  {
+    "sc": "巴布亚新几内亚",
+    "code": 675,
+    "pinyin": "BABUYAXINJINEIYA",
+    "en": "Papua New Cuinea",
+    "locale": "PG",
+    "tc": "巴布亞新畿內亞"
+  },
+  {
+    "sc": "巴拉圭",
+    "code": 595,
+    "pinyin": "BALAGUI",
+    "en": "Paraguay",
+    "locale": "PY",
+    "tc": "巴拉圭"
+  },
+  {
+    "sc": "秘鲁",
+    "code": 51,
+    "pinyin": "MILU",
+    "en": "Peru",
+    "locale": "PE",
+    "tc": "秘魯"
+  },
+  {
+    "sc": "菲律宾",
+    "code": 63,
+    "pinyin": "FEILVBIN",
+    "en": "Philippines",
+    "locale": "PH",
+    "tc": "菲律賓"
+  },
+  {
+    "sc": "波兰",
+    "code": 48,
+    "pinyin": "BOLAN",
+    "en": "Poland",
+    "locale": "PL",
+    "tc": "波蘭"
+  },
+  {
+    "sc": "法属玻利尼西亚",
+    "code": 689,
+    "pinyin": "FASHUBOLINIXIYA",
+    "en": "French Polynesia",
+    "locale": "PF",
+    "tc": "法屬玻利尼西亞"
+  },
+  {
+    "sc": "葡萄牙",
+    "code": 351,
+    "pinyin": "PUTAOYA",
+    "en": "Portugal",
+    "locale": "PT",
+    "tc": "葡萄牙"
+  },
+  {
+    "sc": "波多黎各",
+    "code": 1787,
+    "pinyin": "BODUOLIGE",
+    "en": "Puerto Rico",
+    "locale": "PR",
+    "tc": "波多黎各"
+  },
+  {
+    "sc": "卡塔尔",
+    "code": 974,
+    "pinyin": "KATAER",
+    "en": "Qatar",
+    "locale": "QA",
+    "tc": "卡塔爾"
+  },
+  {
+    "sc": "留尼旺",
+    "code": 262,
+    "pinyin": "LIUNIWANG",
+    "en": "Reunion",
+    "locale": "RE",
+    "tc": "留尼旺"
+  },
+  {
+    "sc": "罗马尼亚",
+    "code": 40,
+    "pinyin": "LUOMANIYA",
+    "en": "Romania",
+    "locale": "RO",
+    "tc": "羅馬尼亞"
+  },
+  {
+    "sc": "俄罗斯",
+    "code": 7,
+    "pinyin": "ELUOSI",
+    "en": "Russia",
+    "locale": "RU",
+    "tc": "俄羅斯"
+  },
+  {
+    "sc": "圣卢西亚",
+    "code": 1758,
+    "pinyin": "SHENGLUXIYA",
+    "en": "Saint Lueia",
+    "locale": "LC",
+    "tc": "聖盧西亞"
+  },
+  {
+    "sc": "圣文森特岛",
+    "code": 1784,
+    "pinyin": "SHENGWENSENTEDAO",
+    "en": "Saint Vincent",
+    "locale": "VC",
+    "tc": "聖文森特島"
+  },
+  {
+    "sc": "东萨摩亚(美)",
+    "code": 684,
+    "pinyin": "DONGSAMOYA(MEI)",
+    "en": "Samoa Eastern",
+    "locale": "AS",
+    "tc": "東薩摩亞(美)"
+  },
+  {
+    "sc": "西萨摩亚",
+    "code": 685,
+    "pinyin": "XISAMOYA",
+    "en": "Samoa Western",
+    "locale": "WS",
+    "tc": "西薩摩亞"
+  },
+  {
+    "sc": "圣马力诺",
+    "code": 378,
+    "pinyin": "SHENGMALINUO",
+    "en": "San Marino",
+    "locale": "SM",
+    "tc": "聖馬力諾"
+  },
+  {
+    "sc": "圣多美和普林西比",
+    "code": 239,
+    "pinyin": "SHENGDUOMEIHEPULINXIBI",
+    "en": "Sao Tome and Principe",
+    "locale": "ST",
+    "tc": "聖多美和普林西比"
+  },
+  {
+    "sc": "沙特阿拉伯",
+    "code": 966,
+    "pinyin": "SHATEALABO",
+    "en": "Saudi Arabia",
+    "locale": "SA",
+    "tc": "沙地阿拉伯"
+  },
+  {
+    "sc": "塞内加尔",
+    "code": 221,
+    "pinyin": "SAINEIJIAER",
+    "en": "Senegal",
+    "locale": "SN",
+    "tc": "塞內加爾"
+  },
+  {
+    "sc": "塞舌尔",
+    "code": 248,
+    "pinyin": "SAISHEER",
+    "en": "Seychelles",
+    "locale": "SC",
+    "tc": "塞舌爾"
+  },
+  {
+    "sc": "塞拉利昂",
+    "code": 232,
+    "pinyin": "SAILALIANG",
+    "en": "Sierra Leone",
+    "locale": "SL",
+    "tc": "塞拉利昂"
+  },
+  {
+    "sc": "新加坡",
+    "code": 65,
+    "pinyin": "XINJIAPO",
+    "en": "Singapore",
+    "locale": "SG",
+    "tc": "新加坡"
+  },
+  {
+    "sc": "斯洛伐克",
+    "code": 421,
+    "pinyin": "SILUOFAKE",
+    "en": "Slovakia",
+    "locale": "SK",
+    "tc": "斯洛伐克"
+  },
+  {
+    "sc": "斯洛文尼亚",
+    "code": 386,
+    "pinyin": "SILUOWENNIYA",
+    "en": "Slovenia",
+    "locale": "SI",
+    "tc": "斯洛文尼亞"
+  },
+  {
+    "sc": "所罗门群岛",
+    "code": 677,
+    "pinyin": "SUOLUOMENQUNDAO",
+    "en": "Solomon Is",
+    "locale": "SB",
+    "tc": "所羅門群島"
+  },
+  {
+    "sc": "索马里",
+    "code": 252,
+    "pinyin": "SUOMALI",
+    "en": "Somali",
+    "locale": "SO",
+    "tc": "索馬里"
+  },
+  {
+    "sc": "南非",
+    "code": 27,
+    "pinyin": "NANFEI",
+    "en": "South Africa",
+    "locale": "ZA",
+    "tc": "南非"
+  },
+  {
+    "sc": "西班牙",
+    "code": 34,
+    "pinyin": "XIBANYA",
+    "en": "Spain",
+    "locale": "ES",
+    "tc": "西班牙"
+  },
+  {
+    "sc": "斯里兰卡",
+    "code": 94,
+    "pinyin": "SILILANKA",
+    "en": "Sri Lanka",
+    "locale": "LK",
+    "tc": "斯裡蘭卡"
+  },
+  {
+    "sc": "圣卢西亚",
+    "code": 1758,
+    "pinyin": "SHENGLUXIYA",
+    "en": "St.Lucia",
+    "locale": "LC",
+    "tc": "聖盧西亞"
+  },
+  {
+    "sc": "圣文森特",
+    "code": 1784,
+    "pinyin": "SHENGWENSENTE",
+    "en": "St.Vincent",
+    "locale": "VC",
+    "tc": "聖文森特"
+  },
+  {
+    "sc": "苏丹",
+    "code": 249,
+    "pinyin": "SUDAN",
+    "en": "Sudan",
+    "locale": "SD",
+    "tc": "蘇丹"
+  },
+  {
+    "sc": "苏里南",
+    "code": 597,
+    "pinyin": "SULINAN",
+    "en": "Suriname",
+    "locale": "SR",
+    "tc": "蘇里南"
+  },
+  {
+    "sc": "斯威士兰",
+    "code": 268,
+    "pinyin": "SIWEISHILAN",
+    "en": "Swaziland",
+    "locale": "SZ",
+    "tc": "斯威士蘭"
+  },
+  {
+    "sc": "瑞典",
+    "code": 46,
+    "pinyin": "RUIDIAN",
+    "en": "Sweden",
+    "locale": "SE",
+    "tc": "瑞典"
+  },
+  {
+    "sc": "瑞士",
+    "code": 41,
+    "pinyin": "RUISHI",
+    "en": "Switzerland",
+    "locale": "CH",
+    "tc": "瑞士"
+  },
+  {
+    "sc": "叙利亚",
+    "code": 963,
+    "pinyin": "XULIYA",
+    "en": "Syria",
+    "locale": "SY",
+    "tc": "敘利亞"
+  },
+  {
+    "sc": "中国台湾",
+    "code": 886,
+    "pinyin": "ZHONGGUOTAIWAN",
+    "en": "Taiwan",
+    "locale": "TW",
+    "tc": "中國台灣"
+  },
+  {
+    "sc": "塔吉克斯坦",
+    "code": 992,
+    "pinyin": "TAJIKESITAN",
+    "en": "Tajikstan",
+    "locale": "TJ",
+    "tc": "塔吉克"
+  },
+  {
+    "sc": "坦桑尼亚",
+    "code": 255,
+    "pinyin": "TANSANGNIYA",
+    "en": "Tanzania",
+    "locale": "TZ",
+    "tc": "坦桑尼亞"
+  },
+  {
+    "sc": "泰国",
+    "code": 66,
+    "pinyin": "TAIGUO",
+    "en": "Thailand",
+    "locale": "TH",
+    "tc": "泰國"
+  },
+  {
+    "sc": "多哥",
+    "code": 228,
+    "pinyin": "DUOGE",
+    "en": "Togo",
+    "locale": "TG",
+    "tc": "多哥"
+  },
+  {
+    "sc": "汤加",
+    "code": 676,
+    "pinyin": "TANGJIA",
+    "en": "Tonga",
+    "locale": "TO",
+    "tc": "湯加"
+  },
+  {
+    "sc": "特立尼达和多巴哥",
+    "code": 1809,
+    "pinyin": "TELINIDAHEDUOBAGE",
+    "en": "Trinidad and Tobago",
+    "locale": "TT",
+    "tc": "特立尼達和多巴哥"
+  },
+  {
+    "sc": "突尼斯",
+    "code": 216,
+    "pinyin": "TUNISI",
+    "en": "Tunisia",
+    "locale": "TN",
+    "tc": "突尼斯"
+  },
+  {
+    "sc": "土耳其",
+    "code": 90,
+    "pinyin": "TUERQI",
+    "en": "Turkey",
+    "locale": "TR",
+    "tc": "土耳其"
+  },
+  {
+    "sc": "土库曼斯坦",
+    "code": 993,
+    "pinyin": "TUKUMANSITAN",
+    "en": "Turkmenistan",
+    "locale": "TM",
+    "tc": "土庫曼"
+  },
+  {
+    "sc": "乌干达",
+    "code": 256,
+    "pinyin": "WUGANDA",
+    "en": "Uganda",
+    "locale": "UG",
+    "tc": "烏幹達"
+  },
+  {
+    "sc": "乌克兰",
+    "code": 380,
+    "pinyin": "WUKELAN",
+    "en": "Ukraine",
+    "locale": "UA",
+    "tc": "烏克蘭"
+  },
+  {
+    "sc": "阿拉伯联合酋长国",
+    "code": 971,
+    "pinyin": "ALABOLIANHEQIUZHANGGUO",
+    "en": "United Arab Emirates",
+    "locale": "AE",
+    "tc": "阿拉伯聯合酋長國"
+  },
+  {
+    "sc": "英国",
+    "code": 44,
+    "pinyin": "YINGGUO",
+    "en": "United Kiongdom",
+    "locale": "GB",
+    "tc": "英國"
+  },
+  {
+    "sc": "美国",
+    "code": 1,
+    "pinyin": "MEIGUO",
+    "en": "United States of America",
+    "locale": "US",
+    "tc": "美國"
+  },
+  {
+    "sc": "乌拉圭",
+    "code": 598,
+    "pinyin": "WULAGUI",
+    "en": "Uruguay",
+    "locale": "UY",
+    "tc": "烏拉圭"
+  },
+  {
+    "sc": "乌兹别克斯坦",
+    "code": 233,
+    "pinyin": "WUZIBIEKESITAN",
+    "en": "Uzbekistan",
+    "locale": "UZ",
+    "tc": "烏茲別克"
+  },
+  {
+    "sc": "委内瑞拉",
+    "code": 58,
+    "pinyin": "WEINEIRUILA",
+    "en": "Venezuela",
+    "locale": "VE",
+    "tc": "委內瑞拉"
+  },
+  {
+    "sc": "越南",
+    "code": 84,
+    "pinyin": "YUENAN",
+    "en": "Vietnam",
+    "locale": "VN",
+    "tc": "越南"
+  },
+  {
+    "sc": "也门",
+    "code": 967,
+    "pinyin": "YEMEN",
+    "en": "Yemen",
+    "locale": "YE",
+    "tc": "也門"
+  },
+  {
+    "sc": "南斯拉夫",
+    "code": 381,
+    "pinyin": "NANSILAFU",
+    "en": "Yugoslavia",
+    "locale": "YU",
+    "tc": "南斯拉夫"
+  },
+  {
+    "sc": "津巴布韦",
+    "code": 263,
+    "pinyin": "JINBABUWEI",
+    "en": "Zimbabwe",
+    "locale": "ZW",
+    "tc": "津巴布韋"
+  },
+  {
+    "sc": "扎伊尔",
+    "code": 243,
+    "pinyin": "ZHAYIER",
+    "en": "Zaire",
+    "locale": "ZR",
+    "tc": "扎伊爾"
+  },
+  {
+    "sc": "赞比亚",
+    "code": 260,
+    "pinyin": "ZANBIYA",
+    "en": "Zambia",
+    "locale": "ZM",
+    "tc": "贊比亞"
+  }
+]

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sahooz.countrypicker">
+    package="com.sahooz.library.countrypicker.sample">
 
     <application
         android:allowBackup="true"
@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sahooz.library.PickActivity" android:windowSoftInputMode="adjustPan"/>
+        <activity android:name="com.sahooz.library.countrypicker.PickActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:label="@string/pick_country"/>
     </application>
 
 </manifest>
