@@ -5,7 +5,12 @@
 支持以下语言：  
 1. 简体中文
 2. 繁体中文
-3. 英文
+3. 英文  
+
+依赖：
+```
+implementation 'com.sahooz.library:countrypicker:2.0'
+```
 
 提供两个版本的选择器： 
 

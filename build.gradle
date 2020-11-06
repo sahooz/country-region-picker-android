@@ -19,9 +19,6 @@ allprojects {
             url "https://jitpack.io"
         }
         google()
-        maven {
-            url 'https://dl.bintray.com/sahooz/contrypicker'
-        }
     }
 }
 
