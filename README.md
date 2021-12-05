@@ -1,4 +1,4 @@
-# country-picker-android
+# country-picker-android [![](https://jitpack.io/v/sahooz/country-picker-android.svg)](https://jitpack.io/#sahooz/country-picker-android)
 
 在做app登录的时候，因为需要支持国外手机号注册和登录，所以就涉及到国际电话区号的选择。在github上面找了一下，国家名称基本都是只有英文版本，而手动的去把中文一个个加上实在是一件费时费力的事情，所以就写了一段简单的java代码，抓取了某快递网站的数据转换成json格式，assets/code.json是处理后的数据。    
 
@@ -8,8 +8,18 @@
 3. 英文  
 
 依赖：
+
 ```
-implementation 'com.sahooz.library:countrypicker:2.0'
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+...
+
+implementation 'com.github.sahooz:country-picker-android:2.0.2'
 ```
 
 提供两个版本的选择器： 

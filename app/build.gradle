@@ -30,6 +30,6 @@ dependencies {
     })
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.12'
-    implementation project(path: ':countrypicker')
-    //implementation 'com.sahooz.library:countrypicker:2.0'
+    //implementation project(path: ':countrypicker')
+    implementation 'com.github.sahooz:country-picker-android:2.0.2'
 }
