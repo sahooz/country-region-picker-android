@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/country-picker-android.iml" filepath="$PROJECT_DIR$/country-picker-android.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/country-picker-android-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/country-picker-android-app.iml" group="country-picker-android/app" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/countrypicker.iml" filepath="$PROJECT_DIR$/.idea/modules/library/countrypicker.iml" group="country-picker-android/countrypicker" />
-      <module fileurl="file://$PROJECT_DIR$/countrypicker/library.iml" filepath="$PROJECT_DIR$/countrypicker/library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mine-country-picker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/mine-country-picker-android.iml" group="country-picker-android" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/country-picker-android.iml" filepath="$PROJECT_DIR$/.idea/modules/country-picker-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/country-picker-android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/country-picker-android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countrypicker/country-picker-android.countrypicker.iml" filepath="$PROJECT_DIR$/.idea/modules/countrypicker/country-picker-android.countrypicker.iml" />
     </modules>
   </component>
 </project>

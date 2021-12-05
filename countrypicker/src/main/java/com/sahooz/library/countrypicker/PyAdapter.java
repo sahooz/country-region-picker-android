@@ -63,8 +63,8 @@ public abstract class PyAdapter<VH extends RecyclerView.ViewHolder> extends Recy
             } else if(!isLetter(letter) && isLetter(otherLetter)){
                 return 1;
             } else {
-                if(letter == 35 && o1 instanceof LetterEntity) return -1;
-                else if(otherLetter == 35 && o2 instanceof LetterEntity) return 1;
+                if(letter == specialLetter && o1 instanceof LetterEntity) return -1;
+                else if(otherLetter == specialLetter && o2 instanceof LetterEntity) return 1;
                 else return pinyin.compareTo(anotherPinyin);
             }
         });

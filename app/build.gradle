@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 31
     defaultConfig {
         applicationId "com.sahooz.library.countrypicker.sample"
         minSdkVersion 15
-        targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 31
+        versionCode 201
+        versionName "2.0.1"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     compileOptions {
@@ -30,6 +30,6 @@ dependencies {
     })
     implementation 'androidx.appcompat:appcompat:1.2.0'
     testImplementation 'junit:junit:4.12'
-    //implementation project(path: ':countrypicker')
-    implementation 'com.sahooz.library:countrypicker:2.0'
+    implementation project(path: ':countrypicker')
+    //implementation 'com.sahooz.library:countrypicker:2.0'
 }

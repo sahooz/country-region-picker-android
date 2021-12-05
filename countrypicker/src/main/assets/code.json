@@ -1280,22 +1280,6 @@
     "tc": "斯裡蘭卡"
   },
   {
-    "sc": "圣卢西亚",
-    "code": 1758,
-    "pinyin": "SHENGLUXIYA",
-    "en": "St.Lucia",
-    "locale": "LC",
-    "tc": "聖盧西亞"
-  },
-  {
-    "sc": "圣文森特",
-    "code": 1784,
-    "pinyin": "SHENGWENSENTE",
-    "en": "St.Vincent",
-    "locale": "VC",
-    "tc": "聖文森特"
-  },
-  {
     "sc": "苏丹",
     "code": 249,
     "pinyin": "SUDAN",
