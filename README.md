@@ -19,7 +19,7 @@ allprojects {
 
 ...
 
-implementation 'com.github.sahooz:country-picker-android:2.0.2'
+implementation 'com.github.sahooz:country-picker-android:2.0.3'
 ```
 
 提供两个版本的选择器： 
