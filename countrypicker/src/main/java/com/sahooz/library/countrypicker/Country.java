@@ -58,7 +58,18 @@ public class Country implements PyEntity {
     }
 
     public String toJson() {
-        return "{\"name\":\"" + name + "\", \"code\":" + code + ", \"flag\":" + flag + ", \"pinyin\":" + pinyin + ",\"locale\":\"" + locale + "\"}";
+        JSONObject jo = new JSONObject();
+        try {
+            jo.put("name", name);
+            jo.put("code", code);
+            jo.put("flag", flag);
+            jo.put("pinyin", pinyin);
+            jo.put("locale", locale);
+            return jo.toString();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return "{}";
     }
 
     public static void load(@NonNull Context ctx, Language language) throws IOException, JSONException {
