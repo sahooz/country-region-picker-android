@@ -1,11 +1,14 @@
 # country-picker-android [![](https://jitpack.io/v/sahooz/country-picker-android.svg)](https://jitpack.io/#sahooz/country-picker-android)
 
+**[English](./README_EN.md)**
+
 在做app登录的时候，因为需要支持国外手机号注册和登录，所以就涉及到国际电话区号的选择。在github上面找了一下，国家名称基本都是只有英文版本，而手动的去把中文一个个加上实在是一件费时费力的事情，所以就写了一段简单的java代码，抓取了某快递网站的数据转换成json格式，assets/code.json是处理后的数据。    
 
 支持以下语言：  
 1. 简体中文
 2. 繁体中文
 3. 英文  
+4. n种其他语言
 
 依赖：
 
@@ -19,7 +22,7 @@ allprojects {
 
 ...
 
-implementation 'com.github.sahooz:country-picker-android:2.0.3'
+implementation 'com.github.sahooz:country-picker-android:3.0.0'
 ```
 
 提供两个版本的选择器： 
@@ -71,3 +74,10 @@ Country.destroy();
 ```
 
 其实代码非常的简单，但是要把各个国家或者地区对应的中英文名称和国旗一一对应起来实在是一件费时费力的事情。供各位参考。
+
+## 版本更新  
+
+### 3.0 
+
+1. 更换数据源，修正旧数据存在错误的问题  
+2. 增加更多语言支持

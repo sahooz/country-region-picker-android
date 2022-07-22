@@ -47,7 +47,7 @@ public class Adapter extends RecyclerView.Adapter<VH> {
     public void onBindViewHolder(VH holder, int position) {
         final Country country = selectedCountries.get(position);
         holder.ivFlag.setImageResource(country.flag);
-        holder.tvName.setText(country.name);
+        holder.tvName.setText(country.translate);
         holder.tvCode.setText("+" + country.code);
         if(itemHeight != -1) {
             ViewGroup.LayoutParams params = holder.itemView.getLayoutParams();

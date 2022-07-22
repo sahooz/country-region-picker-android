@@ -2,6 +2,8 @@ package com.sahooz.library.countrypicker;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import android.annotation.SuppressLint;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -36,6 +38,7 @@ public abstract class PyAdapter<VH extends RecyclerView.ViewHolder> extends Recy
         update(entities);
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     public void update(List<? extends PyEntity> entities){
         if(entities == null) throw new NullPointerException("entities == null!");
         entityList.clear();

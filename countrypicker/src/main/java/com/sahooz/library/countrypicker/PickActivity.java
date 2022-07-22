@@ -21,8 +21,8 @@ import java.util.List;
 
 public class PickActivity extends AppCompatActivity {
 
-    private ArrayList<Country> selectedCountries = new ArrayList<>();
-    private ArrayList<Country> allCountries = new ArrayList<>();
+    private final ArrayList<Country> selectedCountries = new ArrayList<>();
+    private final ArrayList<Country> allCountries = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -51,7 +51,10 @@ public class PickActivity extends AppCompatActivity {
                 String string = s.toString();
                 selectedCountries.clear();
                 for (Country country : allCountries) {
-                    if(country.name.toLowerCase().contains(string.toLowerCase()))
+                    if(country.name.toLowerCase().contains(string.toLowerCase())
+                            || country.translate.toLowerCase().contains(string.toLowerCase())
+                            || country.getPinyin().toLowerCase().contains(string.toLowerCase())
+                    )
                         selectedCountries.add(country);
                 }
                 adapter.update(selectedCountries);
@@ -99,7 +102,7 @@ public class PickActivity extends AppCompatActivity {
             VH vh = (VH)holder;
             final Country country = (Country)entity;
             vh.ivFlag.setImageResource(country.flag);
-            vh.tvName.setText(country.name);
+            vh.tvName.setText(country.translate);
             vh.tvCode.setText("+" + country.code);
             holder.itemView.setOnClickListener(v -> {
                 Intent data = new Intent();

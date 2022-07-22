@@ -1,5 +1,6 @@
 package com.sahooz.library.countrypicker;
 
+import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.os.Bundle;
 
@@ -25,8 +26,8 @@ import java.util.ArrayList;
 
 public class CountryPickerFragment extends DialogFragment {
 
-    private ArrayList<Country> allCountries = new ArrayList<>();
-    private ArrayList<Country> selectedCountries = new ArrayList<>();
+    private final ArrayList<Country> allCountries = new ArrayList<>();
+    private final ArrayList<Country> selectedCountries = new ArrayList<>();
     private PickCountryCallback callback;
 
     public CountryPickerFragment() { }
@@ -71,11 +72,15 @@ public class CountryPickerFragment extends DialogFragment {
 
             @Override public void onTextChanged(CharSequence s, int start, int before, int count) { }
 
+            @SuppressLint("NotifyDataSetChanged")
             @Override public void afterTextChanged(Editable s) {
                 String string = s.toString();
                 selectedCountries.clear();
                 for (Country country : allCountries) {
-                    if(country.name.toLowerCase().contains(string.toLowerCase()))
+                    if(country.name.toLowerCase().contains(string.toLowerCase())
+                            || country.translate.toLowerCase().contains(string.toLowerCase())
+                            || country.getPinyin().toLowerCase().contains(string.toLowerCase())
+                    )
                         selectedCountries.add(country);
                 }
                 adapter.notifyDataSetChanged();
