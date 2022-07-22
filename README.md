@@ -65,7 +65,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 另外，使用前和语言发生变化的时候，请初始化：
 ```java 
 // 轻微耗时操作
-Country.load(this, Language.SIMPLIFIED_CHINESE);
+Country.load(this);
 ```  
 
 销毁： 
