@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CountryPicker</string>
-    <string name="pick_country">选择国家或地区</string>
+    <string name="pick_country_or_region">选择国家或地区</string>
 </resources>
