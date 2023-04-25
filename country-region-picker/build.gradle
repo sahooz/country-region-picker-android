@@ -1,18 +1,16 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 31
+    compileSdkVersion 33
+
     defaultConfig {
-        applicationId "com.sahooz.library.countrypicker.sample"
         minSdkVersion 15
-        targetSdkVersion 31
-        versionCode 203
-        versionName "2.0.3"
+        targetSdkVersion 33
+        versionCode 310
+        versionName "3.1.0"
+
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+
     }
     buildTypes {
         release {
@@ -20,7 +18,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
@@ -29,7 +30,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     testImplementation 'junit:junit:4.12'
-    implementation project(path: ':country-region-picker')
-    //implementation 'com.github.sahooz:country-picker-android:2.0.3'
 }

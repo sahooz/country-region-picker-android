@@ -1,4 +1,4 @@
-# country-picker-android [![](https://jitpack.io/v/sahooz/country-picker-android.svg)](https://jitpack.io/#sahooz/country-picker-android)
+# countryOrRegion-picker-android [![](https://jitpack.io/v/sahooz/countryOrRegion-picker-android.svg)](https://jitpack.io/#sahooz/countryOrRegion-picker-android)
 
 **[中文说明](./README.md)**  
 
@@ -20,7 +20,7 @@ allprojects {
 
 ...
 
-implementation 'com.github.sahooz:country-picker-android:3.0.0'
+implementation 'com.github.sahooz:countryOrRegion-picker-android:3.0.0'
 ```
 
 The two optional pickers： 
@@ -28,14 +28,14 @@ The two optional pickers：
 1. DialogFragment version    
 Sample： 
 ```java
-CountryPickerFragment.newInstance(new PickCountryCallback() {
+CountryFragment.newInstance(new PickCallback() {
     @Override
-    public void onPick(Country country) {
-        if(country.flag != 0) ivFlag.setImageResource(country.flag);
-        tvName.setText(country.name);
-        tvCode.setText("+" + country.code);
+    public void onPick(CountryOrRegion countryOrRegion) {
+        if(countryOrRegion.flag != 0) ivFlag.setImageResource(countryOrRegion.flag);
+        tvName.setText(countryOrRegion.name);
+        tvCode.setText("+" + countryOrRegion.code);
     }
-}).show(getSupportFragmentManager(), "country");
+}).show(getSupportFragmentManager(), "countryOrRegion");
 ```
 What it looks like：  
 ![img](./imgs/dialogfragment.png)  
@@ -49,10 +49,10 @@ startActivityForResult(new Intent(getApplicationContext(), PickActivity.class), 
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
     if(requestCode == 111 && resultCode == Activity.RESULT_OK) {
-        Country country = Country.fromJson(data.getStringExtra("country"));
-        if(country.flag != 0) ivFlag.setImageResource(country.flag);
-        tvName.setText(country.name);
-        tvCode.setText("+" + country.code);
+        CountryOrRegion countryOrRegion = Country.fromJson(data.getStringExtra("countryOrRegion"));
+        if(countryOrRegion.flag != 0) ivFlag.setImageResource(countryOrRegion.flag);
+        tvName.setText(countryOrRegion.name);
+        tvCode.setText("+" + countryOrRegion.code);
     }
 }
 ```
@@ -63,17 +63,22 @@ What it looks like：
 When the device language is changed, do this：
 ```java 
 // Take a little while
-Country.load(this);
+CountryOrRegion.load(this);
 ```  
 
 Destroy it after usage： 
 ```java 
-Country.destroy();
+CountryOrRegion.destroy();
 ```
 
 The code is very simple, but supporting multiple languages is very time consuming. Hope it help.
 
-## Update Log  
+## Update Logs  
+
+### 3.1.03
+
+1. Country/Region name bug fix
+2. Rename some packages and classes and make it reasonable, cause not every subject in the list is a country
 
 ### 3.0  
 

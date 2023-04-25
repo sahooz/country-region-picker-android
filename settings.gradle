@@ -1,1 +1,1 @@
-include ':app', ':countrypicker'
+include ':app', ':country-region-picker'

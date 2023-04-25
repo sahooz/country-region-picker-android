@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.sahooz.library.countrypicker.sample.MainActivity">
+    tools:context="com.sahooz.library.countryregionpicker.sample.MainActivity">
 
     <Button
         android:id="@+id/btnDialog"
@@ -20,6 +20,6 @@
         android:onClick="click"
         android:text="Activity"/>
 
-    <include layout="@layout/item_country"/>
+    <include layout="@layout/item_country_region"/>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-# country-picker-android [![](https://jitpack.io/v/sahooz/country-picker-android.svg)](https://jitpack.io/#sahooz/country-picker-android)
+# country-region-picker-android [![](https://jitpack.io/v/sahooz/country-region-picker-android.svg)](https://jitpack.io/#sahooz/country-region-picker-android)
 
 **[English](./README_EN.md)**
 
@@ -22,7 +22,7 @@ allprojects {
 
 ...
 
-implementation 'com.github.sahooz:country-picker-android:3.0.0'
+implementation 'com.github.sahooz:country-region-picker-android:3.1.0'
 ```
 
 提供两个版本的选择器： 
@@ -30,14 +30,14 @@ implementation 'com.github.sahooz:country-picker-android:3.0.0'
 1. DialogFragment版本    
 使用示例： 
 ```java
-CountryPickerFragment.newInstance(new PickCountryCallback() {
+PickFragment.newInstance(new PickCallback() {
     @Override
-    public void onPick(Country country) {
-        if(country.flag != 0) ivFlag.setImageResource(country.flag);
-        tvName.setText(country.name);
-        tvCode.setText("+" + country.code);
+    public void onPick(CountryOrRegion countryOrRegion) {
+        if(countryOrRegion.flag != 0) ivFlag.setImageResource(countryOrRegion.flag);
+        tvName.setText(countryOrRegion.name);
+        tvCode.setText("+" + countryOrRegion.code);
     }
-}).show(getSupportFragmentManager(), "country");
+}).show(getSupportFragmentManager(), "countryOrRegion");
 ```
 效果图：  
 ![img](./imgs/dialogfragment.png)  
@@ -51,10 +51,10 @@ startActivityForResult(new Intent(getApplicationContext(), PickActivity.class), 
 protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     super.onActivityResult(requestCode, resultCode, data);
     if(requestCode == 111 && resultCode == Activity.RESULT_OK) {
-        Country country = Country.fromJson(data.getStringExtra("country"));
-        if(country.flag != 0) ivFlag.setImageResource(country.flag);
-        tvName.setText(country.name);
-        tvCode.setText("+" + country.code);
+        CountryOrRegion countryOrRegion = CountryOrRegion.fromJson(data.getStringExtra("countryOrRegion"));
+        if(countryOrRegion.flag != 0) ivFlag.setImageResource(countryOrRegion.flag);
+        tvName.setText(countryOrRegion.name);
+        tvCode.setText("+" + countryOrRegion.code);
     }
 }
 ```
@@ -65,17 +65,22 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 另外，使用前和语言发生变化的时候，请初始化：
 ```java 
 // 轻微耗时操作
-Country.load(this);
+CountryOrRegion.load(this);
 ```  
 
 销毁： 
 ```java 
-Country.destroy();
+CountryOrRegion.destroy();
 ```
 
 其实代码非常的简单，但是要把各个国家或者地区对应的中英文名称和国旗一一对应起来实在是一件费时费力的事情。供各位参考。
 
 ## 版本更新  
+
+### 3.1.0
+
+1. 国家/地区名相关bug修复
+2. 重命名一些包和类，使其更加合理，因为这些并不都是“国家”。所以升级的时候需要注意此部分修改
 
 ### 3.0 
 

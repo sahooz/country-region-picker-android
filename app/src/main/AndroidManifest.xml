@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sahooz.library.countrypicker.sample">
+    package="com.sahooz.library.countryregionpicker.sample">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.sahooz.library.countryregionpicker.sample.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,10 +17,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sahooz.library.countrypicker.PickActivity"
+        <activity android:name="com.sahooz.library.countryregionpicker.PickActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustPan"
-            android:label="@string/pick_country"/>
+            android:label="@string/pick_country_or_region"/>
     </application>
 
 </manifest>
